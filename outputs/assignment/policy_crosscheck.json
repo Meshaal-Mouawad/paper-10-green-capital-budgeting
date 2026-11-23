@@ -1,0 +1,10 @@
+{
+  "portfolio_mode_window_area_comparisons": 48,
+  "exact_area_disagreements": 0,
+  "exact_slack_tests": 98304,
+  "slack_equivalence_disagreements": 0,
+  "matched_mixed_financial_rows": 1848,
+  "in_both_label_directions": 1068,
+  "both_loss_terms_positive": 161,
+  "max_mixed_loss_residual": 4.256223480887348e-15
+}

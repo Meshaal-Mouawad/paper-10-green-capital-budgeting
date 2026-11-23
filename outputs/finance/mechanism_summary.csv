@@ -1,0 +1,9 @@
+design,mode,project_threshold_labels,true_eligible_labels,true_ineligible_labels,false_admit,false_exclude,margin_certified,max_error,min_error,portfolio_threshold_cells_with_crossing,decisions_with_crossing,selection_changes,crossing_without_selection_change,decisions_with_multiple_maximizers,decisions_receiving_false_admission,changed_and_zero_shortfall,positive_shortfalls,mean_exclusion_component_musd,mean_displacement_component_musd,mean_ineligible_capex_musd,mean_nominal_npv_difference_musd,mean_baseline_npv_musd
+main,correct,144,73,71,0,0,143,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14.9704572619
+main,gross_denominator,144,73,71,44,0,58,-20.738317757,-68.2905982906,23,69,63,6,0,63,31,32,0,1.9738697126,48.8333333333,10.7939195397,14.9704572619
+main,scope2_omission,144,73,71,53,0,41,-28.53,-89.3,24,72,66,6,0,66,24,42,0,2.61420687795,58.9444444444,13.3158668956,14.9704572619
+main,net_output_undercount,144,73,71,0,57,20,84,55.9411764706,24,72,69,3,0,0,0,69,13.2374371824,0,0,-13.2374371824,14.9704572619
+control,correct,144,72,72,0,0,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15.3139205095
+control,gross_denominator,144,72,72,0,0,144,-11.3177570093,-101.854700855,0,0,0,0,0,0,0,0,0,0,0,0,15.3139205095
+control,scope2_omission,144,72,72,0,0,144,-15.57,-133.19,0,0,0,0,0,0,0,0,0,0,0,0,15.3139205095
+control,net_output_undercount,144,72,72,0,0,144,124.764705882,30.5294117647,0,0,0,0,0,0,0,0,0,0,0,0,15.3139205095

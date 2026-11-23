@@ -1,0 +1,80 @@
+{
+  "modules": {
+    "bluebook_generator/kpi_extractor.py": {
+      "sha256": "d9936e2dfcbd4cca66c0aacd11c67856767b7148ec7ace7f99f8d88b6c298c20",
+      "bytes": 41316
+    },
+    "bluebook_generator/parser.py": {
+      "sha256": "13f011bb47b6e08fa54024b84d97b564a7e796d4d7168710b0549359be3ec429",
+      "bytes": 889
+    },
+    "bluebook_generator/__init__.py": {
+      "sha256": "569471683daa0d1ece14a7458456013070c5e9d3bba8cff84991f603675e50d7",
+      "bytes": 215
+    }
+  },
+  "original_archive_sha256": null,
+  "git_tree_commit": null,
+  "baseline_manifest_sha256": "c8c176e90c62d6f013a6480267474db38b906b120203f54fe9734c8aafd9acd3",
+  "all_manifest_members_verified": 405,
+  "cohorts": {
+    "main": {
+      "files": 192,
+      "leap_records": 192,
+      "tag_records": 192,
+      "matched_name_formula_line_and_file": 192,
+      "ast_flags": 144,
+      "baseline_ast_flags": 144,
+      "numeric_flags": 144,
+      "returned_context_includes_execution_line": 192,
+      "distinct_return_expressions": 4,
+      "distinct_declarations": 1,
+      "scan_stats": {
+        "filesystem_files": 192,
+        "filesystem_dirs": 0,
+        "filesystem_items": 192,
+        "filesystem_bytes": 112368,
+        "files_after_directory_exclusions": 192,
+        "files_scanned": 192,
+        "lines_analyzed": 1920,
+        "skipped_binary_files": 0,
+        "ignored_dirs": 0,
+        "ignored_files": 0,
+        "unsupported_files": 0,
+        "oversized_files": 0,
+        "empty_or_unreadable_files": 0,
+        "filtered_non_kpi_candidates": 0
+      }
+    },
+    "control": {
+      "files": 192,
+      "leap_records": 192,
+      "tag_records": 192,
+      "matched_name_formula_line_and_file": 192,
+      "ast_flags": 144,
+      "baseline_ast_flags": 144,
+      "numeric_flags": 144,
+      "returned_context_includes_execution_line": 192,
+      "distinct_return_expressions": 4,
+      "distinct_declarations": 1,
+      "scan_stats": {
+        "filesystem_files": 192,
+        "filesystem_dirs": 0,
+        "filesystem_items": 192,
+        "filesystem_bytes": 112560,
+        "files_after_directory_exclusions": 192,
+        "files_scanned": 192,
+        "lines_analyzed": 1920,
+        "skipped_binary_files": 0,
+        "ignored_dirs": 0,
+        "ignored_files": 0,
+        "unsupported_files": 0,
+        "oversized_files": 0,
+        "empty_or_unreadable_files": 0,
+        "filtered_non_kpi_candidates": 0
+      }
+    }
+  },
+  "challenge_scenarios": 8,
+  "challenge_files": 9
+}

@@ -1,0 +1,23 @@
+{
+  "baseline_manifest_sha256": "c8c176e90c62d6f013a6480267474db38b906b120203f54fe9734c8aafd9acd3",
+  "script_runtime": "stdlib Python 3.11 or later",
+  "comparison_convention": "independent minus archived; USD million for monetary fields",
+  "raw_absolute_tolerance": "1e-07",
+  "independent_arithmetic": "exact rational",
+  "project_rows": 96,
+  "project_rows_with_differences": 0,
+  "finance_decisions_main": 288,
+  "finance_decisions_control": 288,
+  "decisions_with_differences": 0,
+  "primary_numeric_kpi_fixtures": 192,
+  "primary_numeric_kpi_differences": 0,
+  "summary_metric_fields_compared": 224,
+  "summary_metric_differences": 0,
+  "maximum_absolute_raw_decision_monetary_difference_musd": 3.7842040714220406e-14,
+  "exact_certificate_mismatches": 0,
+  "nonzero_shortfall_decomposition_residuals": 0,
+  "margin_violations": 0,
+  "paired_fault_decisions": 216,
+  "correct_comparisons_per_design": 72,
+  "nominal_financial_values": "synthetic USD millions, not cash realizations"
+}

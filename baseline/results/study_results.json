@@ -1,0 +1,255 @@
+{
+  "reference_date": "2026-11-22",
+  "study": "synthetic controlled calculation discrepancy and capital-allocation sensitivity",
+  "leap_source": "user supplied AI-Powered_KPI_Extractor_Interactive_Bluebook_Generator.zip",
+  "leap_module": "bluebook_generator.kpi_extractor.find_kpis_in_directory",
+  "study_units": {
+    "synthetic_portfolios": 8,
+    "synthetic_projects": 48,
+    "source_fixtures": 192,
+    "decision_conditions": 288,
+    "paired_fault_conditions": 216
+  },
+  "design": {
+    "thresholds": [
+      380.0,
+      400.0,
+      420.0
+    ],
+    "budget_fractions": [
+      0.45,
+      0.6,
+      0.75
+    ],
+    "modes": [
+      "correct",
+      "gross_denominator",
+      "scope2_omission",
+      "net_output_undercount"
+    ],
+    "years": 5,
+    "source_formula": "(scope1_kg + scope2_kg) / net_mwh"
+  },
+  "scan_stats": {
+    "filesystem_files": 192,
+    "filesystem_dirs": 0,
+    "filesystem_items": 192,
+    "filesystem_bytes": 112368,
+    "files_after_directory_exclusions": 192,
+    "files_scanned": 192,
+    "lines_analyzed": 1920,
+    "skipped_binary_files": 0,
+    "ignored_dirs": 0,
+    "ignored_files": 0,
+    "unsupported_files": 0,
+    "oversized_files": 0,
+    "empty_or_unreadable_files": 0,
+    "filtered_non_kpi_candidates": 0
+  },
+  "leap_extracted_count": 192,
+  "source_anchor_count": 192,
+  "syntactic_disagreements": 144,
+  "numeric_reference_disagreements": 144,
+  "results_by_mode": [
+    {
+      "mode": "correct",
+      "n_conditions": 72,
+      "selection_changes": 0,
+      "selection_change_pct": 0.0,
+      "any_invalid_allocation": 0,
+      "sum_invalid_capex_musd": 0,
+      "mean_invalid_capex_per_condition_musd": 0.0,
+      "mean_valid_npv_regret_musd": 0.0,
+      "max_valid_npv_regret_musd": 0.0,
+      "n_eligibility_false_positives": 0,
+      "n_eligibility_false_negatives": 0
+    },
+    {
+      "mode": "gross_denominator",
+      "n_conditions": 72,
+      "selection_changes": 63,
+      "selection_change_pct": 87.5,
+      "any_invalid_allocation": 63,
+      "sum_invalid_capex_musd": 3516.0,
+      "mean_invalid_capex_per_condition_musd": 48.833,
+      "mean_valid_npv_regret_musd": 1.974,
+      "max_valid_npv_regret_musd": 16.277,
+      "n_eligibility_false_positives": 132,
+      "n_eligibility_false_negatives": 0
+    },
+    {
+      "mode": "scope2_omission",
+      "n_conditions": 72,
+      "selection_changes": 66,
+      "selection_change_pct": 91.67,
+      "any_invalid_allocation": 66,
+      "sum_invalid_capex_musd": 4244.0,
+      "mean_invalid_capex_per_condition_musd": 58.944,
+      "mean_valid_npv_regret_musd": 2.614,
+      "max_valid_npv_regret_musd": 16.277,
+      "n_eligibility_false_positives": 159,
+      "n_eligibility_false_negatives": 0
+    },
+    {
+      "mode": "net_output_undercount",
+      "n_conditions": 72,
+      "selection_changes": 69,
+      "selection_change_pct": 95.83,
+      "any_invalid_allocation": 0,
+      "sum_invalid_capex_musd": 0,
+      "mean_invalid_capex_per_condition_musd": 0.0,
+      "mean_valid_npv_regret_musd": 13.237,
+      "max_valid_npv_regret_musd": 35.504,
+      "n_eligibility_false_positives": 0,
+      "n_eligibility_false_negatives": 171
+    }
+  ],
+  "results_by_threshold": [
+    {
+      "threshold_kg_mwh": 380.0,
+      "mode": "gross_denominator",
+      "n_conditions": 24,
+      "n_selection_changed": 24,
+      "mean_npv_regret_musd": 0.715,
+      "total_invalid_capex_musd": 1436.0
+    },
+    {
+      "threshold_kg_mwh": 380.0,
+      "mode": "scope2_omission",
+      "n_conditions": 24,
+      "n_selection_changed": 24,
+      "mean_npv_regret_musd": 1.144,
+      "total_invalid_capex_musd": 1655.0
+    },
+    {
+      "threshold_kg_mwh": 380.0,
+      "mode": "net_output_undercount",
+      "n_conditions": 24,
+      "n_selection_changed": 21,
+      "mean_npv_regret_musd": 6.303,
+      "total_invalid_capex_musd": 0
+    },
+    {
+      "threshold_kg_mwh": 400.0,
+      "mode": "gross_denominator",
+      "n_conditions": 24,
+      "n_selection_changed": 21,
+      "mean_npv_regret_musd": 2.124,
+      "total_invalid_capex_musd": 1081.0
+    },
+    {
+      "threshold_kg_mwh": 400.0,
+      "mode": "scope2_omission",
+      "n_conditions": 24,
+      "n_selection_changed": 21,
+      "mean_npv_regret_musd": 2.773,
+      "total_invalid_capex_musd": 1341.0
+    },
+    {
+      "threshold_kg_mwh": 400.0,
+      "mode": "net_output_undercount",
+      "n_conditions": 24,
+      "n_selection_changed": 24,
+      "mean_npv_regret_musd": 14.34,
+      "total_invalid_capex_musd": 0
+    },
+    {
+      "threshold_kg_mwh": 420.0,
+      "mode": "gross_denominator",
+      "n_conditions": 24,
+      "n_selection_changed": 18,
+      "mean_npv_regret_musd": 3.083,
+      "total_invalid_capex_musd": 999.0
+    },
+    {
+      "threshold_kg_mwh": 420.0,
+      "mode": "scope2_omission",
+      "n_conditions": 24,
+      "n_selection_changed": 21,
+      "mean_npv_regret_musd": 3.926,
+      "total_invalid_capex_musd": 1248.0
+    },
+    {
+      "threshold_kg_mwh": 420.0,
+      "mode": "net_output_undercount",
+      "n_conditions": 24,
+      "n_selection_changed": 24,
+      "mean_npv_regret_musd": 19.069,
+      "total_invalid_capex_musd": 0
+    }
+  ],
+  "results_by_budget": [
+    {
+      "budget_fraction": 0.45,
+      "mode": "gross_denominator",
+      "n_conditions": 24,
+      "n_selection_changed": 21,
+      "mean_npv_regret_musd": 3.509,
+      "total_invalid_capex_musd": 965.0
+    },
+    {
+      "budget_fraction": 0.45,
+      "mode": "scope2_omission",
+      "n_conditions": 24,
+      "n_selection_changed": 22,
+      "mean_npv_regret_musd": 3.952,
+      "total_invalid_capex_musd": 1075.0
+    },
+    {
+      "budget_fraction": 0.45,
+      "mode": "net_output_undercount",
+      "n_conditions": 24,
+      "n_selection_changed": 23,
+      "mean_npv_regret_musd": 12.72,
+      "total_invalid_capex_musd": 0
+    },
+    {
+      "budget_fraction": 0.6,
+      "mode": "gross_denominator",
+      "n_conditions": 24,
+      "n_selection_changed": 21,
+      "mean_npv_regret_musd": 1.85,
+      "total_invalid_capex_musd": 1252.0
+    },
+    {
+      "budget_fraction": 0.6,
+      "mode": "scope2_omission",
+      "n_conditions": 24,
+      "n_selection_changed": 22,
+      "mean_npv_regret_musd": 2.946,
+      "total_invalid_capex_musd": 1494.0
+    },
+    {
+      "budget_fraction": 0.6,
+      "mode": "net_output_undercount",
+      "n_conditions": 24,
+      "n_selection_changed": 23,
+      "mean_npv_regret_musd": 13.377,
+      "total_invalid_capex_musd": 0
+    },
+    {
+      "budget_fraction": 0.75,
+      "mode": "gross_denominator",
+      "n_conditions": 24,
+      "n_selection_changed": 21,
+      "mean_npv_regret_musd": 0.563,
+      "total_invalid_capex_musd": 1299.0
+    },
+    {
+      "budget_fraction": 0.75,
+      "mode": "scope2_omission",
+      "n_conditions": 24,
+      "n_selection_changed": 22,
+      "mean_npv_regret_musd": 0.944,
+      "total_invalid_capex_musd": 1675.0
+    },
+    {
+      "budget_fraction": 0.75,
+      "mode": "net_output_undercount",
+      "n_conditions": 24,
+      "n_selection_changed": 23,
+      "mean_npv_regret_musd": 13.615,
+      "total_invalid_capex_musd": 0
+    }
+  ]
+}

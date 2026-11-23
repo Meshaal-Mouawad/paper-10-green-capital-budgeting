@@ -1,0 +1,10 @@
+budget_fraction,mode,n_conditions,n_selection_changed,mean_npv_regret_musd,total_invalid_capex_musd
+0.45,gross_denominator,24,21,3.509,965.0
+0.45,scope2_omission,24,22,3.952,1075.0
+0.45,net_output_undercount,24,23,12.72,0
+0.6,gross_denominator,24,21,1.85,1252.0
+0.6,scope2_omission,24,22,2.946,1494.0
+0.6,net_output_undercount,24,23,13.377,0
+0.75,gross_denominator,24,21,0.563,1299.0
+0.75,scope2_omission,24,22,0.944,1675.0
+0.75,net_output_undercount,24,23,13.615,0

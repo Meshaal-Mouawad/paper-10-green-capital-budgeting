@@ -1,0 +1,140 @@
+{
+  "query_comparisons": 144,
+  "query_diff_count": 0,
+  "matched_direction_comparisons": 432,
+  "matched_direction_diff_count": 0,
+  "matched_summary_comparisons": 6,
+  "matched_summary_diff_count": 0,
+  "common": {
+    "ambiguous_projects": {
+      "sum": 330,
+      "distribution": {
+        "3": 3,
+        "4": 24,
+        "5": 45
+      }
+    },
+    "distinct_winners": {
+      "sum": 227,
+      "distribution": {
+        "2": 9,
+        "3": 43,
+        "4": 20
+      }
+    },
+    "worst_case_checks": {
+      "sum": 135,
+      "distribution": {
+        "1": 9,
+        "2": 63
+      }
+    },
+    "reference_path_checks": {
+      "sum": 135,
+      "distribution": {
+        "1": 9,
+        "2": 63
+      }
+    },
+    "best_prespecified_checks": {
+      "sum": 155,
+      "distribution": {
+        "1": 9,
+        "2": 43,
+        "3": 20
+      }
+    },
+    "adaptive_saving_vs_best_prespecified": {
+      "sum": 20,
+      "distribution": {
+        "0": 52,
+        "1": 20
+      }
+    },
+    "fewer_prespecified_than_ambiguous": {
+      "sum": 175,
+      "distribution": {
+        "1": 6,
+        "2": 32,
+        "3": 31,
+        "4": 3
+      }
+    },
+    "verified_endpoint_intervals": 528
+  },
+  "project_specific": {
+    "ambiguous_projects": {
+      "sum": 330,
+      "distribution": {
+        "3": 3,
+        "4": 24,
+        "5": 45
+      }
+    },
+    "distinct_winners": {
+      "sum": 1039,
+      "distribution": {
+        "4": 6,
+        "7": 3,
+        "8": 9,
+        "9": 2,
+        "10": 3,
+        "11": 6,
+        "13": 4,
+        "14": 6,
+        "15": 8,
+        "16": 8,
+        "19": 3,
+        "20": 1,
+        "21": 3,
+        "26": 1,
+        "27": 4,
+        "28": 1,
+        "29": 1,
+        "31": 3
+      }
+    },
+    "worst_case_checks": {
+      "sum": 285,
+      "distribution": {
+        "2": 6,
+        "3": 12,
+        "4": 33,
+        "5": 21
+      }
+    },
+    "reference_path_checks": {
+      "sum": 277,
+      "distribution": {
+        "2": 6,
+        "3": 12,
+        "4": 41,
+        "5": 13
+      }
+    },
+    "best_prespecified_checks": {
+      "sum": 285,
+      "distribution": {
+        "2": 6,
+        "3": 12,
+        "4": 33,
+        "5": 21
+      }
+    },
+    "adaptive_saving_vs_best_prespecified": {
+      "sum": 0,
+      "distribution": {
+        "0": 72
+      }
+    },
+    "fewer_prespecified_than_ambiguous": {
+      "sum": 45,
+      "distribution": {
+        "0": 36,
+        "1": 27,
+        "2": 9
+      }
+    },
+    "verified_endpoint_intervals": 12960
+  }
+}

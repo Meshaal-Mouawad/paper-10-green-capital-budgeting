@@ -1,0 +1,7 @@
+factor,comparison,n,up_greater,tie,down_greater,minimum,maximum
+gross_to_net,portfolio_mean,5760,5748,0,12,-1.49490863906,27.2184497612
+gross_to_net,synchronized_mean,720,720,0,0,5.93811924658,13.8962108385
+total_to_scope1,portfolio_mean,5760,5748,0,12,-0.966302516582,30.1463328695
+total_to_scope1,synchronized_mean,720,720,0,0,6.68554637738,16.1560250034
+fixed_output,portfolio_mean,5760,5760,0,0,0.624172176918,30.1463328695
+fixed_output,synchronized_mean,720,720,0,0,7.61010887349,17.0798932095

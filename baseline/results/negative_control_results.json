@@ -1,0 +1,18 @@
+{
+  "negative_control_projects": 48,
+  "source_fixtures": 192,
+  "decision_conditions": 288,
+  "changes": 0,
+  "thresholds": [
+    380.0,
+    400.0,
+    420.0
+  ],
+  "budget_fractions": [
+    0.45,
+    0.6,
+    0.75
+  ],
+  "description": "Distant-intensity source/error controls preserve eligibility and allocation for every studied threshold/budget",
+  "source_linked_records": 192
+}

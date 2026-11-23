@@ -1,0 +1,7 @@
+window,mode,portfolios,threshold_min,threshold_max,mean_changed_area_pct,mean_positive_area_pct
+full_support,gross_denominator,8,269.73,560.0,36.668503326515314,12.057253236392382
+full_support,scope2_omission,8,269.73,560.0,42.84484694893191,14.636283450677658
+full_support,net_output_undercount,8,269.73,560.0,53.33471708731874,53.33471708731874
+grid_window,gross_denominator,8,380.0,420.0,92.36576089275808,53.563543333181514
+grid_window,scope2_omission,8,380.0,420.0,98.3125,65.2495928791473
+grid_window,net_output_undercount,8,380.0,420.0,97.8125,97.8125

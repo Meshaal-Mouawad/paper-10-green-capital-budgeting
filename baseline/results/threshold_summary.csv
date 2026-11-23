@@ -1,0 +1,10 @@
+threshold_kg_mwh,mode,n_conditions,n_selection_changed,mean_npv_regret_musd,total_invalid_capex_musd
+380.0,gross_denominator,24,24,0.715,1436.0
+380.0,scope2_omission,24,24,1.144,1655.0
+380.0,net_output_undercount,24,21,6.303,0
+400.0,gross_denominator,24,21,2.124,1081.0
+400.0,scope2_omission,24,21,2.773,1341.0
+400.0,net_output_undercount,24,24,14.34,0
+420.0,gross_denominator,24,18,3.083,999.0
+420.0,scope2_omission,24,21,3.926,1248.0
+420.0,net_output_undercount,24,24,19.069,0

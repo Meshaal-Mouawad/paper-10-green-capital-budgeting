@@ -1,0 +1,17 @@
+design,metric,n,distinct,minimum,maximum,mean,negative
+main,net_mwh,48,48,80000,123150,101312.5,0
+main,gross_mwh,48,48,85600,137928,113314.791667,0
+main,scope2_fraction,48,5,0.09,0.19,0.1384375,0
+main,capex_musd,48,10,18,47,34.25,0
+main,annual_cash_flow_musd,48,20,4.5,16.1,10.3141666667,0
+main,discount_rate,48,4,0.07,0.1,0.085,0
+main,npv_musd,48,34,-2.03982899827,18.282631597,6.41868647216,6
+main,intensity_true,48,38,317,476,399.333333333,0
+control,net_mwh,48,48,80000,123150,101312.5,0
+control,gross_mwh,48,48,85600,137928,113314.791667,0
+control,scope2_fraction,48,5,0.09,0.19,0.1384375,0
+control,capex_musd,48,10,18,47,34.25,0
+control,annual_cash_flow_musd,48,20,4.5,16.1,10.3141666667,0
+control,discount_rate,48,4,0.07,0.1,0.085,0
+control,npv_musd,48,34,-2.03982899827,18.282631597,6.41868647216,6
+control,intensity_true,48,48,173,707,423.333333333,0

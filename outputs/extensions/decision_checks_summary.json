@@ -1,0 +1,100 @@
+{
+  "common": {
+    "ambiguous_projects": {
+      "sum": 330,
+      "distribution": {
+        "3": 3,
+        "4": 24,
+        "5": 45
+      }
+    },
+    "eligibility_patterns": {
+      "sum": 240,
+      "distribution": {
+        "3": 48,
+        "4": 24
+      }
+    },
+    "distinct_winners": {
+      "sum": 227,
+      "distribution": {
+        "2": 9,
+        "3": 43,
+        "4": 20
+      }
+    },
+    "worst_case_checks": {
+      "sum": 135,
+      "distribution": {
+        "1": 9,
+        "2": 63
+      }
+    },
+    "reference_path_checks": {
+      "sum": 135,
+      "distribution": {
+        "1": 9,
+        "2": 63
+      }
+    }
+  },
+  "project_specific": {
+    "ambiguous_projects": {
+      "sum": 330,
+      "distribution": {
+        "3": 3,
+        "4": 24,
+        "5": 45
+      }
+    },
+    "eligibility_patterns": {
+      "sum": 1848,
+      "distribution": {
+        "8": 3,
+        "16": 24,
+        "32": 45
+      }
+    },
+    "distinct_winners": {
+      "sum": 1039,
+      "distribution": {
+        "4": 6,
+        "7": 3,
+        "8": 9,
+        "9": 2,
+        "10": 3,
+        "11": 6,
+        "13": 4,
+        "14": 6,
+        "15": 8,
+        "16": 8,
+        "19": 3,
+        "20": 1,
+        "21": 3,
+        "26": 1,
+        "27": 4,
+        "28": 1,
+        "29": 1,
+        "31": 3
+      }
+    },
+    "worst_case_checks": {
+      "sum": 285,
+      "distribution": {
+        "2": 6,
+        "3": 12,
+        "4": 33,
+        "5": 21
+      }
+    },
+    "reference_path_checks": {
+      "sum": 277,
+      "distribution": {
+        "2": 6,
+        "3": 12,
+        "4": 41,
+        "5": 13
+      }
+    }
+  }
+}

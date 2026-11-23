@@ -1,0 +1,5 @@
+mode,n_conditions,selection_changes,selection_change_pct,any_invalid_allocation,sum_invalid_capex_musd,mean_invalid_capex_per_condition_musd,mean_valid_npv_regret_musd,max_valid_npv_regret_musd,n_eligibility_false_positives,n_eligibility_false_negatives
+correct,72,0,0.0,0,0,0.0,0.0,0.0,0,0
+gross_denominator,72,63,87.5,63,3516.0,48.833,1.974,16.277,132,0
+scope2_omission,72,66,91.67,66,4244.0,58.944,2.614,16.277,159,0
+net_output_undercount,72,69,95.83,0,0,0.0,13.237,35.504,0,171

@@ -1,0 +1,14 @@
+case_id,variable,value,unit,source_id
+vasilikos,gas_estimate,380,g CO2 per kWh,EIB_SCORE
+vasilikos,distillate_estimate,510,g CO2 per kWh,EIB_SCORE
+vasilikos,earlier_standard,550,g CO2 per kWh,EIB_SCORE
+vasilikos,later_standard,250,g CO2 per kWh,EIB_SCORE
+vasilikos,approved_maximum,76000000,EUR,EIB_MINUTES
+vasilikos,signed,76000000,EUR,EIB_PROJECT
+copiulemu,reported_total,16371,t CO2e,SGS_VERIFY
+copiulemu,verified_v2_total,16403,t CO2e,SGS_VERIFY
+copiulemu,verified_v3_total,16215,t CO2e,SGS_VERIFY
+copiulemu,mdproject_total,19565.56,t CO2e,SGS_VERIFY
+copiulemu,mdreg_total,3326.15,t CO2e,SGS_VERIFY
+copiulemu,electricity_total,24.68,t CO2e,SGS_VERIFY
+copiulemu,requested,16403,CER,UNFCCC_REG

@@ -1,0 +1,9 @@
+design,mode,paired_decisions,positive_reference_values,zero_reference_values,mean_reference_npv_musd,ratio_of_aggregate_gap_to_aggregate_reference,mean_gap_fraction_among_positive_reference,min_strict_margin_slack_kg_mwh,capex_and_intensity_strictly_increasing_portfolios,pooled_capex_intensity_pearson
+main,correct,72,69,3,14.9704572619,0,0,0,8,0.9310700858621404
+main,gross_denominator,72,69,3,14.9704572619,0.131850996805,0.140888136456,-61.0256410256,8,0.9310700858621404
+main,scope2_omission,72,69,3,14.9704572619,0.174624384026,0.192311244113,-79.8,8,0.9310700858621404
+main,net_output_undercount,72,69,3,14.9704572619,0.884237331623,0.91486224769,-74.1176470588,8,0.9310700858621404
+control,correct,72,72,0,15.3139205095,0,0,113,8,0.9250374744901091
+control,gross_denominator,72,72,0,15.3139205095,0,0,54.358974359,8,0.9250374744901091
+control,scope2_omission,72,72,0,15.3139205095,0,0,29.55,8,0.9250374744901091
+control,net_output_undercount,72,72,0,15.3139205095,0,0,35.4117647059,8,0.9250374744901091

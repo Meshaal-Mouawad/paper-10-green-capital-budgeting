@@ -1,0 +1,7 @@
+{
+  "verified_budget_specific_endpoints": 18,
+  "verified_local_contrasts": 155520,
+  "verified_joint_endpoints": 6,
+  "max_abs_difference_in_rounded_USD_millions": 4.980194034942542e-11,
+  "method": "Dynamic programming with frozen NPVs; portfolio financier slots restored from each environmental permutation."
+}

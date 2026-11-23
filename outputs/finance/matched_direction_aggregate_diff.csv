@@ -1,0 +1,7 @@
+factor,direction,n,changed,mean_ineligible_capex,mean_shortfall,differing_fields,delta_mean_shortfall,delta_mean_ineligible_capex
+gross_to_net,down,72,63,48.8333333333,1.9738697126,,2.89127756529e-15,-2.66666666667e-15
+gross_to_net,up,72,66,0,11.5056754088,,9.04806948489e-15,0
+total_to_scope1,down,72,66,58.9444444444,2.61420687795,,3.75352101486e-15,4.44444444444e-15
+total_to_scope1,up,72,66,0,12.685138041,,8.96221433836e-15,0
+fixed_output,down,72,69,64.1944444444,2.71960180248,,4.02808578901e-15,4.44444444444e-15
+fixed_output,up,72,69,0,13.2374371824,,9.2939407752e-15,0

@@ -1,0 +1,30 @@
+{
+  "matplotlib": "3.10.8",
+  "original_pdf_timestamp_utc": "2026-11-22T19:07:00Z",
+  "figures": {
+    "figure1_selection_change.pdf": {
+      "method": "PDF file SHA-256 with original creation time",
+      "original_sha256": "3bafd905593b3efb991879366ba6502219217f011b6e5eccba9264e9e9cb8672",
+      "replay_sha256": "3bafd905593b3efb991879366ba6502219217f011b6e5eccba9264e9e9cb8672",
+      "matched": true
+    },
+    "figure1_selection_change.png": {
+      "method": "SHA-256 of uncompressed RGBA pixels after checking image dimensions",
+      "original_sha256": "843b5d408a7790de7e9c452c2d00c332a1bd7e73329295d53bb6ed8d9d797c52",
+      "replay_sha256": "843b5d408a7790de7e9c452c2d00c332a1bd7e73329295d53bb6ed8d9d797c52",
+      "matched": true
+    },
+    "figure2_value_shortfall.pdf": {
+      "method": "PDF file SHA-256 with original creation time",
+      "original_sha256": "5cf77e9c9a2c42129bcc0e5854afa50d9e71727938dd6b5dbe982b8e0337da1e",
+      "replay_sha256": "5cf77e9c9a2c42129bcc0e5854afa50d9e71727938dd6b5dbe982b8e0337da1e",
+      "matched": true
+    },
+    "figure2_value_shortfall.png": {
+      "method": "SHA-256 of uncompressed RGBA pixels after checking image dimensions",
+      "original_sha256": "a30b7accff4787b83248d7cc6acba62b4722d9945fea2c8b2bceaa2aef4c9b3e",
+      "replay_sha256": "a30b7accff4787b83248d7cc6acba62b4722d9945fea2c8b2bceaa2aef4c9b3e",
+      "matched": true
+    }
+  }
+}
