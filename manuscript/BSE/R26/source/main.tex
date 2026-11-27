@@ -1,0 +1,70 @@
+% R18: official Wiley USG class from supplied November 2026 template.
+% Anonymous manuscript; use separate title pages for author information.
+\documentclass[HARVARD,twocolumn]{USG}
+\usepackage{mathtools}
+\usepackage{etoolbox,lastpage}
+\graphicspath{{images/}{figures/}}
+\newcommand{\unit}{kg CO$_2$e/MWh}
+\providecommand{\doi}[1]{\href{https://doi.org/#1}{doi:\allowbreak #1}}
+\bibpunct{(}{)}{;}{a}{,}{,}
+\hypersetup{hidelinks,pdfauthor={},pdftitle={The Opportunity Cost of Carbon Calculation Errors in Green Capital Budgeting}}
+\articletype{ORIGINAL ARTICLE}
+\journal{Business Strategy and the Environment}
+\startpage{1}
+\copyyear{2026}
+\articledoi{}
+\historydates{}
+% The official class prints publisher-assigned bibliographic data by default.
+% For a submission draft, replace only the first-page footer, not the class file.
+\makeatletter
+% Subscription-route draft: suppress the template's unconditional OA icon.
+\patchcmd{\@@articletype}{\raisebox{-2\@p@t}{\includegraphics[width=0.70in]{images/openaccess}}}{}{\typeout{R17: removed default OA badge}}{\PackageError{R17}{OA badge suppression failed}{Inspect template version.}}
+% Correct the supplied class's draft footer and avoid a publisher DOI/volume.
+\newcommand{\rseventeenfooter}{\vbox{\hsize\textwidth\hrule height .5\p@\vskip3\p@\hbox to \textwidth{\fontsize{7}{9}\selectfont\textit{Business Strategy and the Environment} --- Manuscript for peer review\hfill\thepage\ of \pageref*{LastPage}}}}
+\def\oddfoot@titlepage@box{\rseventeenfooter}
+\def\oddfoot@titlepage@info{\rseventeenfooter}
+\def\evenfoot@titlepage@info{\rseventeenfooter}
+\def\oddhead@titlepage@info{}
+\def\evenhead@titlepage@info{}
+\def\oddhead@headings@info{\rseventeenfooter}
+\def\evenhead@headings@info{\rseventeenfooter}
+\patchcmd{\@maketitle}{\foot@measure\enlargethispage{-\foot@raise}}{}{\typeout{R17: removed obsolete first-page footer lift}}{\PackageError{R17}{Footer patch failed}{Inspect template version.}}
+\makeatother
+\begin{document}
+\title{The Opportunity Cost of Carbon Calculation Errors in Green Capital Budgeting}
+\authormark{Carbon errors and green budgeting}
+\titlemark{Carbon errors and green budgeting}
+\keywords{carbon accounting | environmental strategy | green capital budgeting | sustainability assurance | capital allocation | opportunity cost}
+\abstract[ABSTRACT]{Errors in carbon intensity (emissions per unit of electricity) can increase total net present value in green capital budgeting while reducing the value of projects meeting the emissions rule. Across 48 constructed energy projects in eight portfolios, two errors understating intensity changed 129 funding decisions; 55 retained every originally funded qualifying project. We separate losses through exclusion and capital displacement. For projects funded in full or not at all, with positive additive costs, additive values and one budget allowing unspent funds, displacement occurs exactly when ineligible spending exceeds the capital left after reserving the least expensive value-maximizing portfolio of projects eligible under both calculations. At three error scales, multiplying rather than dividing intensity by the same factor caused greater average loss for every combination of financial reassignments within portfolios, weighting portfolios, budgets and ceilings equally. The ranking could reverse at 45\% of total project costs.}
+
+\maketitle
+\input{body}
+\input{references}
+\ifdefined\readingcopy
+\else
+  \onecolumn
+  \section*{Tables}
+  \input{assets/tab_money}
+  \input{assets/tab_matched}
+  \input{assets/tab_assignment}
+  \clearpage
+  \section*{Figure legends}
+\begin{figure}[!ht]
+\centering
+\caption{Carbon calculation and qualified investment loss. (A) The approved and reported formulas are applied to identical project inputs and the same budget $b$ and emissions ceiling; $T$ and $R$ denote the respective eligible sets, and $\widehat S$ is the funded set under the reported formula. (B) The successive optimal net present values $V$ separate the loss from removing projects excluded in error and the loss from capital spent on funded ineligible projects. $C=T\cap R$ is the set eligible under both formulas, $I=\widehat S\setminus T$ is the funded ineligible set, and $K(I)$ is its cost. Arrows indicate logical steps, not the magnitude of loss. Displacement occurs under the condition in Equation~\eqref{eq:slack}.}\label{fig:mechanism}
+\end{figure}
+\begin{figure}[!ht]
+\centering
+
+\caption{At one budget, admitting project~5 costs two other projects their funding. At the other, all three qualifying investments remain funded. (A) Each row shows a project in portfolio~1. Open circles use electricity exported to the grid and squares use all electricity generated. Scores at or below the dashed ceiling of 380~\unit\ qualify. (B) Reserving USD 75 million for projects~1--3 leaves the amounts shown by the bars. The dashed line marks project~5's USD 40 million cost. The losses are the net present value (NPV) of qualifying projects displaced.}\label{fig:project}
+
+\end{figure}
+\begin{figure}[!ht]
+\centering
+
+\caption{Where a carbon calculation changes funding and where it reduces qualifying value. Each point represents an emissions ceiling and a budget. Within each column, the upper map (A) counts portfolios whose funded projects changed under the indicated error, and the lower map (B) counts those whose funded projects delivered less net present value under the stated eligibility rule. Both rows use the same scale from zero to eight portfolios. Boxes mark the original study range of 380--420~\unit\ and budgets of 45--75\% of the capital required for all six projects.}\label{fig:map}
+
+\end{figure}
+\clearpage
+\fi
+\end{document}

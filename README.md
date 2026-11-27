@@ -70,10 +70,11 @@ The main R2 driver calls each fixture, records its value, extracts the source de
 
 The reassignment program reads the original project register and the reciprocal direction ledger inside this distribution. Its receipt hashes the project register when invoked on the extracted folder. The earlier invocation hashed the complete previous supplement ZIP (`ad9e35bce48472c568ef6b9685f0de00be4c40e21bd7018623b534ae6d5c5edc`). All assignment results use the same underlying register. The complete replay tests all four new numerical programs against their tables and checks the public case arithmetic against its reference output. CSV files compressed with gzip compare exactly after decompression if local compression bytes vary.
 
-## Current manuscript — Wiley BSE R20
+## Current manuscript — Wiley BSE R26
 
-- [R20 manuscript](manuscript/BSE/R20/Paper_10_BSE_R20.pdf)
-- [R20 LaTeX source](manuscript/BSE/R20/source)
+- [R26 manuscript](manuscript/BSE/R26/Paper_10_BSE_R26.pdf)
+- [R26 LaTeX source](manuscript/BSE/R26/source)
+- [R26 validation](manuscript/BSE/R26/Validation.md)
 - [Research state](RESEARCH_STATE.yaml)
 - [Published Harvard Dataverse replication data](https://doi.org/10.7910/DVN/ZSXX0E)
 

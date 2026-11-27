@@ -3,8 +3,8 @@ manuscript_title: The Opportunity Cost of Carbon Calculation Errors in Green Cap
   Budgeting
 journal: Business Strategy and the Environment
 publisher: Wiley
-manuscript_version: R20
-baseline: R19
+manuscript_version: R26
+baseline: R25 checksum-verified submission package
 verification_date: '2026-11-27'
 dataset:
   doi: 10.7910/DVN/ZSXX0E
@@ -21,13 +21,21 @@ dataset:
   archive_byte_comparison: not verified
 repository:
   url: https://github.com/Meshaal-Mouawad/paper-10-green-capital-budgeting
-  verified_parent_commit: c89ec690eccae305fea7f7a4e85935fad3796cab
-  remote_manuscript: R20
-  local_manuscript: R20
+  remote_manuscript: R26
+  local_manuscript: R26
   action: NO_ACTION
-science: Frozen R19 scientific content; M1 literature positioning only; no new experiments
+  verified_parent_commit: 939b68d2f558212357a50f45bd37fa9f32bd318d
+  synchronization: This state is installed atomically with the R26 manuscript and
+    verified by comparing the pushed commit with the remote HEAD.
+  public_source_file_count: 15
+science: Frozen R20 scientific results and M1 closure; R21 redesigned figures preserved;
+  R22 Walshe clarity revision; R23 Lingard paragraph coherence and first-use definitions.
+  No new experiments. R24 impact-oriented writing polish; no scientific changes. R25
+  literature synthesis and explanatory writing polish; no change to scientific results
+  or methods. R26 conceptual figure only; no changes to experiments or results.
 submission: not submitted to Wiley
-next: Complete author-only administrative checks and submit R20 to Wiley.
+next: Submit R26 to Business Strategy and the Environment via Wiley, using the private
+  submission package.
 review:
   reviewed_version: R19
   decision: minor revision; scientific contribution supported
@@ -37,5 +45,155 @@ review:
   additional_experiments: 0
   M1: implemented and checked in R20; no independent R20 re-review claimed
   scientific_closure: complete against the supplied independent report
-manuscript_sha256: 416cd3c1becada8f74cbab8e04c4f2ebbe61e036347c2740d7dc7a01fe78e410
-source_archive_sha256: ec03d72a63e2155a0475f7e6b3ccb6711de4a3065eae2ec448ac9cd05138c6e7
+  R22: Targeted internal writing verification; original independent R19 review and
+    R20 M1 closure preserved; no fresh independent review claimed.
+  R23: Internal targeted writing, scientific-content preservation, reference identity
+    and visual checks. No new independent peer review claimed.
+  R24: Targeted internal writing and preservation checks; no new independent peer
+    review claimed.
+  R25: Internal targeted writing and preservation checks; no fresh independent peer
+    review.
+  R26: Internally verified conceptual figure and sequential numbering; no new independent
+    peer review or experiments.
+manuscript_sha256: 8f7357972af465b6dbb6387486b74defde86b738cbc43e2434edfb9de56cd4a4
+source_archive_sha256: bea39fbca795856b40b3060a0bd2cd48136ff6b26164a570a135c91a12b82ac8
+visual_revision:
+  action: replace existing Figures 1 and 2
+  source: Paper10_Figures.zip
+  third_schematic: proposed only; excluded pending explicit approval
+  figure_1_max_marker_residual_kg_CO2e_per_MWh: 1.6629224319331115e-05
+  figure_2_source_count_labels_verified: 2482308
+  original_raster_quantization_retained: true
+  anonymous_review_render_identical_pages: 11
+  record_version: R21 (historical visual-only validation)
+writing_revision:
+  source: 'Walshe C. (2018). Clear, Simple, Precise, Meaningful: A Quick Guide to
+    Writing for Publication. Indian Journal of Palliative Care 24:391–392. doi:10.4103/IJPC.IJPC_175_18'
+  abstract_words: 147
+  body_tex_word_tokens_before: 6430
+  body_tex_word_tokens_after: 5876
+  equations_identical: 5
+  bibliography_entries_unchanged: 31
+  tables_unchanged: 3
+  figure_pdfs_unchanged: 2
+  source_members_changed:
+  - README.md
+  - body.tex
+  - main.tex
+  - title_page_1.tex
+  reading_pdf_pages: 10
+  anonymous_pdf_pages: 10
+  record_version: R22 (historical)
+paragraph_revision:
+  source: Lingard L. (2019). From semi-conscious to strategic paragraphing. Perspectives
+    on Medical Education 8:98–100. doi:10.1007/s40037-019-0507-4
+  abstract_words: 148
+  equations_identical: 5
+  numeric_token_multiset_unchanged: true
+  citation_key_counts_unchanged: true
+  bibliography_entries: 31
+  figure_pdfs_unchanged: 2
+  tables_unchanged: 3
+  changed_source_members:
+  - README.md
+  - body.tex
+  - main.tex
+  - references.tex
+  - title_page_1.tex
+  - title_page_2.tex
+  pdf_pages:
+    Manuscript: 10
+    Anonymous_Review: 11
+    Anonymous_Title_Page: 1
+    Author_Title_Page: 1
+  architecture_reference: Verified archive P6R17; unverified submission ID omitted
+  companion_checker_manuscript: SCICO-D-26-00865 retained as under peer review
+author_information:
+  master: Manuscript Authoring Bible v1.0, 2026-11-26
+  approved_fields_synchronized: true
+  telephone: provided and verified in private author title page; not stored in public
+    state
+  publisher_disclosure_check: MAB v1.0 declaration verified verbatim; no replacement
+    or approval request included. Any additional publisher-required disclosure must
+    accurately describe the assistance used.
+submission_package: R26 private submission package prepared; not submitted
+impact_revision:
+  source: 'Taylor & Francis Author Services, Research Impact: A guide to creating,
+    capturing, and evaluating the impact of your research, supplied Research_impact_ebook(4).pdf'
+  printed_pages:
+  - 11
+  - 12
+  - 17
+  - 18
+  - 19
+  - 22
+  - 23
+  abstract_words_whitespace: 149
+  changed_body_paragraphs: 14
+  equations_identical: 5
+  body_numeric_token_multiset_unchanged: true
+  citation_key_counts_unchanged: true
+  methods_unchanged: true
+  limitations_unchanged: true
+  reference_entries: 31
+  tables_unchanged: 3
+  figures_unchanged: 2
+  title_page_2_tex_and_pdf_unchanged: true
+  changed_source_members:
+  - README.md
+  - body.tex
+  - main.tex
+  - title_page_1.tex
+  pdf_pages:
+    Manuscript: 10
+    Anonymous_Review: 11
+    Anonymous_Title_Page: 1
+    Author_Title_Page: 1
+  keyword_set_unchanged: true
+effective_writing_revision:
+  source: 'Taylor & Francis Author Services, Writing your paper: Everything you need
+    to know to prepare and write an effective research paper; supplied Writing_your_paper_ebook(3).pdf'
+  printed_pages:
+  - 9
+  - 14
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 30
+  abstract_words_whitespace: 145
+  equations_identical: 5
+  body_numeric_token_multiset_unchanged: true
+  citation_key_counts_unchanged: true
+  bibliography_entries: 31
+  tables_unchanged: 3
+  figures_unchanged: 2
+  private_author_title_page_source_and_pdf_unchanged: true
+  changed_source_members:
+  - README.md
+  - body.tex
+  - main.tex
+  - title_page_1.tex
+  pdf_pages:
+    Manuscript: 11
+    Anonymous_Review: 11
+    Anonymous_Title_Page: 1
+    Author_Title_Page: 1
+  new_literature_claims_or_references: false
+  article_title_and_keywords_unchanged: true
+figure_revision:
+  figures: 3
+  original_result_figures_byte_identical: true
+  new_figure: Conceptual schematic of Equations (2)–(4); no new data
+  equations_identical: 5
+  tables_identical: 3
+  private_title_page_unchanged: true
+  reading_pages: 11
+  anonymous_pages: 11
+  record_version: R26
