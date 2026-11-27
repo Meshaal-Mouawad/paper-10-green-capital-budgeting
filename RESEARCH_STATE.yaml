@@ -1,0 +1,41 @@
+paper: 10
+manuscript_title: The Opportunity Cost of Carbon Calculation Errors in Green Capital
+  Budgeting
+journal: Business Strategy and the Environment
+publisher: Wiley
+manuscript_version: R20
+baseline: R19
+verification_date: '2026-11-27'
+dataset:
+  doi: 10.7910/DVN/ZSXX0E
+  url: https://doi.org/10.7910/DVN/ZSXX0E
+  version: '1.0'
+  published: true
+  publication_date: 2026-11-25
+  file: Paper_10_Dataverse_Upload.zip
+  file_id: 14471302
+  evidence: Author-provided published Harvard record
+  related_url_correction: submitted by author; publication of corrected metadata not
+    independently checked
+  action: NO_ACTION
+  archive_byte_comparison: not verified
+repository:
+  url: https://github.com/Meshaal-Mouawad/paper-10-green-capital-budgeting
+  verified_parent_commit: c89ec690eccae305fea7f7a4e85935fad3796cab
+  remote_manuscript: R20
+  local_manuscript: R20
+  action: NO_ACTION
+science: Frozen R19 scientific content; M1 literature positioning only; no new experiments
+submission: not submitted to Wiley
+next: Complete author-only administrative checks and submit R20 to Wiley.
+review:
+  reviewed_version: R19
+  decision: minor revision; scientific contribution supported
+  critical: 0
+  major: 0
+  minor: 1
+  additional_experiments: 0
+  M1: implemented and checked in R20; no independent R20 re-review claimed
+  scientific_closure: complete against the supplied independent report
+manuscript_sha256: 416cd3c1becada8f74cbab8e04c4f2ebbe61e036347c2740d7dc7a01fe78e410
+source_archive_sha256: ec03d72a63e2155a0475f7e6b3ccb6711de4a3065eae2ec448ac9cd05138c6e7
